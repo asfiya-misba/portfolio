@@ -1,0 +1,484 @@
+@font-face {
+    font-family: 'Brandon Black';
+    src: url('//static.showit.co/file/QHBQUL9xTIehsG9ko4bbGw/shared/brandongrotesque-black.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Cervo Medium Neue';
+    src: url('//static.showit.co/file/P2AFhEbVSBqvylcLqNkm3Q/shared/cervoneue-mediumneue.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Poynter Display Semibold';
+    src: url('//static.showit.co/file/TmmrLGBVSqSIsYwGfLMsUw/shared/poynterosdisplay-semibold.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Poynter Bold';
+    src: url('//static.showit.co/file/ycp4VRxnQN-qTTm-7gNplA/shared/poynterosdisplay-bold.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Brandon Bold';
+    src: url('//static.showit.co/file/ARAGZZX_Q8iuYaCimUsunQ/shared/brandongrotesque-bold.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Sentinel Book';
+    src: url('//static.showit.co/file/DczEdGS8SUaUMrgN3Dc4SA/shared/sentinel-book.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Bon Vivant';
+    src: url('//static.showit.co/file/l0RP92h6SbCeBPgOB2k6pA/shared/bonvivant-regular.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Sentinel BookItalic';
+    src: url('//static.showit.co/file/7B944vIeQNiZTQTRFMG8JQ/shared/sentinel-bookitalic.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Sentinel Medium';
+    src: url('//static.showit.co/file/995ZJcfLRuSvCFHKFR3UXw/shared/sentinel-medium.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Sentinel Semi Bold';
+    src: url('//static.showit.co/file/GGIvy5O0S96qAoPzkwMiFw/shared/sentinel-semibold.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Poynter Semibold';
+    src: url('//static.showit.co/file/QVPiGkLuTRaykFw9bcWsew/shared/poynterosdisplay-semibold.woff') format('woff');
+  }
+
+  body {
+    font-family: 'Sentinel Book', serif; /* Example of using Sentinel Book font */
+  }
+  
+  header, button, .button-container {
+    font-family: 'Brandon Bold', sans-serif; /* Example of using Brandon Bold font */
+  }
+
+
+  h1, h2, h3{
+    font-family: 'Poynter Semibold', sans-serif;
+  }
+  
+  p {
+    font-family: 'Cervo Medium Neue', sans-serif; /* Example of using Cervo Medium Neue font */
+  }
+  
+  .nav-menu {
+    font-family: 'Poynter Semibold', serif; /* Example of using Poynter Semibold font */
+  }
+  
+  .contact-form-container, .form-group{
+    font-family: 'Sentinel Medium', sans-serif;
+  }
+  /* Add more styles using your custom fonts as needed */
+  
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #F9EDE5;
+    padding: 1.5rem 0;
+    position: fixed;
+    letter-spacing: 0.1rem;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+  }
+  
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 2rem;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+  }
+  
+  .name {
+    font-size: 1.5rem;
+    color: black;
+  }
+  
+  
+  section {
+    padding: 6rem 1rem;
+    min-height: 100vh;
+  }
+
+  svg{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+
+  }
+  
+  #home {
+    background: #F9EDE5;
+  }
+  
+  #about {
+    background: white;
+  }
+
+  #skills {
+    background: #F9EDE5;
+  }
+  
+  #projects {
+    background: white;
+  }
+
+  #timeline {
+    background: #F9EDE5;
+  }
+  
+  #contact {
+    background: #D0BCA8;
+  }
+
+
+  
+
+  
+  /* Center the contact form */
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.contact-form {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #D0BCA8;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 30%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #6B9ABE; /* Blue */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #5582a2; /* Darker blue on hover */
+}
+
+
+
+
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: flex;
+    }
+    
+    nav ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      background-color: #F9EDE5; 
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+    
+    nav ul.active {
+      display: flex;
+    }
+    
+    nav ul li {
+      margin: 1rem 0;
+    }
+  }
+
+
+
+
+/* Homepage */
+
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 0.1rem;
+}
+
+.button-home {
+    background-color: black; 
+}
+
+
+
+/* Skills Page  */
+.skill-bubble {
+    padding: 10px 20px;
+    background-color: #FEACA0;
+    color: black;
+    border-radius: 20px;
+    font-family: Brandon Bold;
+    font-size: 1rem;
+  }
+
+
+  
+  /* Projects Page */
+
+  .project-card ul {
+    padding-left: 20px;
+  }
+  .button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-family: Brandon Bold;
+  }
+  
+
+
+
+
+
+/* Timeline Page  */
+
+.timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #ccc;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  .timeline-item {
+    padding: 20px 30px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  .timeline-item::after {
+    content: ' ';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #ccc;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .timeline-item:nth-child(odd) {
+    left: -10%;  /* Adjusted to move left-side cards further left */
+  }
+  
+  .timeline-item:nth-child(even) {
+    left: 55%;  /* Adjusted to move right-side cards further right */
+  }
+  
+  .timeline-item:nth-child(even)::after {
+    left: -17px; /* Ensuring the circle stays aligned properly on the right-side cards */
+  }
+  
+  .timeline-content {
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timeline-content h3, .timeline-content h4 {
+    margin-top: 0;
+    font-family: Sentinel Book;
+  }
+  
+  .timeline-content ul {
+    padding-left: 20px;
+  }
+  
+
+
+/* Contact Section Styles */
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    
+}
+
+.contact-container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+}
+
+.left-side {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+
+.left-side h2 {
+    font-family: 'Poynter Bold', serif;
+    font-size: 5rem;
+    margin: 0;
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.circular-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.email {
+    font-family: 'Sentinel Medium', serif;
+    font-size: 1.2rem;
+    margin: 0;
+    color: black;
+}
+
+.email a {
+    color: black;
+    text-decoration: none;
+}
+
+.email a:hover {
+    text-decoration: underline;
+}
